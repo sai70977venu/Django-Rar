@@ -1,0 +1,194 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>RAR online</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'css/mdb.min.css' %}" rel="stylesheet">
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<header class="main-header">
+    <nav class="navbar navbar-expand-lg navbar-dark lightred-color" style="background:#b33939;">
+        <div class="container">
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="basicExampleNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+        
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">More</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">FAQ</a>
+                  <a class="dropdown-item" href="#">CONTACT DETAILS</a>
+                  <a class="dropdown-item" href="#">KNOW MORE</a>
+                </div>
+              </li>
+        
+            </ul>
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item login">
+                <a class="nav-link" href="{% static 'asserts/login.html' %}">Login
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item login">
+                <a class="nav-link" href="#">Signup</a>
+              </li>
+            </ul>
+            <!-- Links -->
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid main-logo" style="margin:0;padding: 0; position:relative;width:100%;height:200px;">
+        <center><img src="{% static 'img/logo.png' %}" class="img-fluid" style="height:200px;"></center>
+      </div>
+</header>
+      <div class="container" style="text-align: center; padding: 15px;">
+        <h1 style="color: #ffefba; padding:8px;border-bottom:2px solid #ffefba;">RAR.com is Rent - A - Ride.com</h1>
+        <h3 style="padding-top: 15px;">Our Main Moto</h3>
+        <img src="{% static 'img/car.jpg' %}" class="img-fluid" style="align-content:center;padding: 9px;padding-bottom: 20px;">
+        <p style="font-size: 1.3em;font-weight:lighter;">Main moto of this app is to share vehicle within same locality!.people can get into RAR and hire the vehicle on your need.cost of rent wil based on owner of the vehicle. it's also a part time earning for the owner of the vehicle when it is free.</p>
+        <h3 style="padding-top: 15px;">How does this RAR work</h3>
+        <img src="{% static 'img/pic1.jpg' %}" class="img-fluid" style="align-content:center;padding: 9px;padding-bottom: 20px; height:250px;">
+        <p style="font-size: 1.3em;font-weight:lighter;">&emsp;This application contains two login allowance ,i.e login to ride and another is login to provide hire. The owner of the vehicle shoud register with second login then at the time he/she want to give his/her vehicle for rent then they put up their control on then nearby people who are registrered with the first login will be intimated by notifications.</p>
+      </div>
+      <hr style="border-top: 1px solid white;">
+      <div class="container-fluid" style="align-content: center;justify-content:center;text-align:center;margin-top: 2em;margin-bottom: 2em;">
+        <div class="row rows">
+          <div class="col-md-6 columns">
+            <h2 style="color: #ffefba; padding:8px;border-bottom:2px solid #ffefba;text-align: center;">When Does RAR comes in need ?</h2>
+            <p style="padding: 10px;margin:5px;font-size: 1.3em;font-weight:lighter;">&emsp;Main aim this application is to serve people to travel at the time emergencies. At the important times accidents ,worktimes,office and all travellings time this application help to to find your bestie who provide you the vehicle.</p>
+          </div>
+          <div class="col-md-6 columns">
+            <img src="{% static 'img/need.jpg' %}" alt="" style="width: 80%;">
+          </div>
+        </div>
+        <div class="row rows">
+          <div class="col-md-6 columns">
+            <img src="{% static 'img/rc-book.jpg' %}" alt="" style="width: 80%;">
+          </div>
+          <div class="col-md-6 columns">
+              <h2 style="color: #ffefba; padding:8px;border-bottom:2px solid #ffefba;text-align: center;">Security Services</h2>
+              <ul style="align-content: initial;text-align:initial;padding: 10px;margin:5px;font-size: 1.3em;font-weight:lighter;">
+                <li>Providing original proofs to the owner.</li>
+                <li>Vehicle security over renter.</li>
+                <li>Vehicle tracking facility to owner. </li>
+                <li>Accurate amount fixed by the ownwer based on the given range.</li>
+                <li>All the users should strictly follow every guidelines provided.</li>
+              </ul>
+          </div>
+        </div>
+        <div class="row rows">
+          <div class="col-md-6 columns">
+            <h2 style="color: #ffefba; padding:8px;border-bottom:2px solid #ffefba;text-align: center;">Our Analytical Approch</h2>
+            <img src="{% static 'img/all1.jpeg' %}" alt="" style="padding:20px;width:80%;">
+          </div>
+          <div class="col-md-6 columns">
+            <h2 style="color: #ffefba; padding:8px;border-bottom:2px solid #ffefba;text-align: center;">About</h2>
+            <img src="{% static 'img/need.jpg' %}" alt="" style="padding:20px;width: 80%;height: 82%;">
+          </div>
+        </div>
+      </div>
+      <hr style="border-top: 1px solid white;">
+      <div class="container">
+       <h4 style="padding: 2em;font-weight: lighter;"><span style="font-size: 35px; padding:5px;border-bottom:2px solid #ffefba">About Our Idea</span><br><br>&emsp;&emsp;RAR is rent after ride application to empower the people with travelling.Its a small start towards this idea. Security ranges and application facities will updated based on the customer Experience. Support by people is main factor towards a good start.</h4>
+      </div>
+       <footer style="background:#b33939;">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12"   style="margin-top: 3em;">
+                <h2 style="text-align: center; padding-bottom:0.3em; border-bottom: 1px solid wheat;">Subscribe To Our NewsLetter</h2>
+                <form action="#" method="Post">
+                  <div class="row" style="padding-top: 1em;">
+                    <div class="col-md-12">
+                        <div class="input-group mb-3">
+                          <input type="text" class="form-control" placeholder="Enter Email ID" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                          <div class="input-group-append">
+                            <span class="input-group-text bg-dark" style="color: wheat;padding-left: 2em;padding-right: 2em;cursor: pointer; border: black;" id="basic-addon2"><a href="##" style="text-decoration: none;color:inherit;">Subscribe</a></span>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <hr style="border-bottom:1px solid white;">
+          <div class="container" style="border-bottom: 1px solid white;padding: 5px;">
+            <div class="row">
+              <div class="col-md-4 columns">
+                <h3 style="display:block;border-bottom: 1px solid white;text-align: center;padding: 5px;">About Our Startup</h3>
+                <p>&emsp;&emsp;RAR is rent after ride application to empower the people with travelling.Its a small start towards this idea. Security ranges and application facities will updated based on the customer Experience. Support by people is main factor towards a good start.</p>
+                <i class="fa fa-envelope-o" aria-hidden="true"></i><span style="font-size: 15px;">&nbsp;&nbsp;support@rar_ride.com</span>
+              </div>
+              <div class="col-md-4 columns">
+                <h3 style="display:block;border-bottom: 1px solid white;text-align: center;padding: 5px;">Reach Us</h3>
+                <p><i class="fas fa-map-marked-alt"></i>&nbsp;&nbsp;H.no.: 8-7-178/10, Samathanagar, Old Bowenpally, Secenderabad, Medchal Dist. Telangana - 500043.</p>
+                <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp;9985599388 <br>
+                <i class="fa fa-whatsapp" style="padding-top: 7px;" aria-hidden="true"></i>&nbsp;&nbsp;9603279395
+              </div>
+              <div class="col-md-4 columns">
+                <h3 style="display:block;border-bottom: 1px solid white;text-align: center;padding: 5px;">FeedBack</h3>
+                <div class="form-group">
+                  <input type="email" class="form-control bg-light" id="email" placeholder="Enter email" name="email" style="color: black;font-weight:lighter;">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control bg-light" rows="4" placeholder="Description" id="comment" style="color: black;font-weight:100;"></textarea>
+                </div>
+                <div class="form-group">        
+                  <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="container" style="font-weight: lighter; text-align: center;padding-top: 2.5em; padding-bottom: 2.5em;">
+              <div class="row">
+                <div class="col-md-4" style="padding:5px;">
+                    Powered by © Thunder.AI-Website Builder.
+                </div>
+                <div class="col-md-4" style="padding:5px;">
+                  Copyright © 2019 RAR.com - All Rights Reserved.
+                </div>
+                <div class="col-md-4" style="padding:5px;">
+                  <a href="##" class="footer-icon"><i class="fa fa-facebook"></i></a>
+                  <a href="##" class="footer-icon"><i class="fa fa-twitter"></i></a>
+                  <a href="##" class="footer-icon"><i class="fa fa-instagram"></i></a>
+                  <a href="##" class="footer-icon"><i class="fa fa-linkedin-square"></i></a>
+                  <a href="##" class="footer-icon"><i class="fa fa-google-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </footer>
+  <script type="text/javascript" src="{% static 'js/jquery-3.4.0.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %)"></script>
+  <script type="text/javascript" src="{% static 'js/mdb.min.js' %}"></script>
+</body>
+</html>
